@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="GOODTABLE" name="description">
+    <title>GOODTABLE</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="visually-hidden">GOODTABLE</h1>
+      <form class="grid-select">
+        <h2 class="grid-select__header">.......................КАТАЛОГ ТОВАРОВ.......................</h2>
+        <input class="grid-select__radio visually-hidden" id="grid-shop" name="grid" type="radio" value="shop">
+        <label class="grid-select__btn" for="grid-shop">
+          <span class="grid-select__text">Магазин</span>
+        </label>
+      </form>
+
+
+      
+      <div class="layout layout--landing">
+        <header class="header header--empty">
+          <p class="placeholder">Header</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+
+          </div>
+          <div class="header__elements-wrapper"></div>
+        </header>
+
+        <div class="content content-1 content--empty">
+          <p class="placeholder">Content</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+           
+          </div>
+          <div class="content__elements-wrapper content-1__elements-wrapper"></div>
+        </div>
+
+        <div class="content content-2 content--empty">
+          <p class="placeholder">Content</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+
+          </div>
+          <div class="content__elements-wrapper content-2__elements-wrapper"></div>
+        </div>
+
+        <div class="content content-3 content--empty">
+          <p class="placeholder">Content</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+           
+          </div>
+          <div class="content__elements-wrapper content-3__elements-wrapper"></div>
+        </div>
+
+        <footer class="footer footer--empty">
+          <p class="placeholder">Footer</p>
+          <button class="add-btn" type="button"></button>
+          <div class="choose-elem hidden">
+           
+          <div class="footer__elements-wrapper"></div>
+        </footer>
+
+      </div>
+    </div>
+
+    <template id="h1-template">
+      <div class="element title">
+        <h1 class="template-content">Заголовок H1</h1>
+        
+      </div>
+    </template>
+
+    <template id="h2-template">
+      <div class="element title">
+        <h2 class="template-content">Заголовок H2</h2>
+
+      </div>
+    </template>
+
+    <template id="h3-template">
+      <div class="element title">
+        <h3 class="template-content">Заголовок H3</h3>
+
+      </div>
+    </template>
+
+    <template id="p-template">
+      <div class="element text">
+        <p class="template-content">Абзац текста</p>
+
+      </div>
+    </template>
+
+    <template id="img-template">
+      <div class="element image">
+        <img alt="" class="template-content" src="img/empty.png">
+
+      </div>
+    </template>
+    
+    <script src="js/script.js"></script>
+    <script src="js/test.js"></script>
+
+
+  </body>
+</html>
+
